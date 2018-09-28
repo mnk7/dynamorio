@@ -278,7 +278,7 @@ inscount(uint num_instrs, uint num_arith, uint num_simd, uint num_simd_arith,
          uint num_store_linear, uint num_store_structured, uint num_sve,
          uint num_sve_arith, uint num_sve_load, uint num_sve_store)
 {
-
+    
     count_all += num_instrs;
     count_arith += num_arith;
     count_simd += num_simd;
